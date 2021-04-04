@@ -1,5 +1,5 @@
 # vscode\_find\_colors
-Read VS Code theme colors and output them in a terminal. Designed for creating language grammer extensions, where color coordination is important.
+Read VS Code theme colors and output them in a terminal. Designed for creating language grammar extensions, where color coordination is important.
 
 ## Usage
 
