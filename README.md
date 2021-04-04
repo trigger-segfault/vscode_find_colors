@@ -1,6 +1,7 @@
 # vscode\_find\_colors
 Read VS Code theme colors and output them in a terminal. Designed for creating language grammar extensions, where color coordination is important.
 
+
 ## Usage
 
 ```
@@ -25,3 +26,12 @@ optional arguments:
 ## Preview
 
 <p align="center"><img src="./preview.png"></p>
+
+
+## Finding theme files
+
+Other preinstalled themes all have a folder starting with `theme-*`. Some themes (like **dark\_plus** and **light\_plus**) will include base theme files (like **dark\_vs** and **light\_vs**). These should be in the same directory to read from. The option `--no-includes` can be used to skip reading base themes entirely.
+
+**Windows path to theme-defaults:**<br> `C:/Program Files/Microsoft VS Code/resources/app/extensions/theme-defaults/themes`
+
+**GitHub URL to theme-defaults:**<br> https://github.com/microsoft/vscode/tree/main/extensions/theme-defaults/themes
